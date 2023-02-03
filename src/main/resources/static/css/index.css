@@ -6,4 +6,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 17 ene. 2023, 20:38:22
     Author     : Asus
 */
+/* box-sizing: content box y border-box  */
+/* background-image:url(../iamgesbackground.png); */
+.block{
+    background-color: purple;
+    border: 10px solid blue;
+    padding:20px;  
+    width:200px;
+    height:200px;
+    box-sizing: border-box;
+    
+}
 
+.static{
+    position:static;
+    border: 3px solid green;
+    top:400px;
+    left:50px;
+}
+
+.relative{
+    position:relative;
+    border: 3px solid green;
+    top:400px;
+    left:50px;
+    width: 300px;
+    height: 300px; 
+}
